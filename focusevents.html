@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="events.css">
+    <title>Focusevents</title>
+</head>
+<body>
+    <script src="events.js" defer></script> 
+    <h3 style="text-align: center;">Registration form</h3>
+    <form style="text-align: center;" action="demo.php" onreset="alert('Clear the data to reset')" onsubmit="return validation()">
+    <label for="fname">First name:</label><br>
+    <!-- this refers to the current element -->
+  <input type="text" id="fname" name="fname" placeholder="Enter your first name" onfocus="this.style.backgroundColor='orange'" onblur="this.style.backgroundColor='white'"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" placeholder="Enter your last name" onfocus="this.style.backgroundColor='yellow'" onblur="this.style.backgroundColor='white'"><br>
+  <label for="email">Email id:</label><br>
+  <!-- Events using external js file with event handler properties -->
+  <input type="text" id="email" name="email" placeholder="Enter your emailid"  ><br><br>
+  <input type="submit" value="Submit" >
+  <input type="reset" value="Reset">
+  <p><strong>Country</strong></p>
+ <select id="select" onchange="alert('You have selected a country')">
+  <option value="India">India</option>
+  <option value="Aus">Aus</option>
+  <option value="USA">USA</option>
+  <option value="Japan">Japan</option>
+</select>
+</body>
+</html> 
