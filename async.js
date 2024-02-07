@@ -9,3 +9,5 @@ console.log(5)
 const req = new XMLHttpRequest();
 req.open('GET','https://api.publicapis.org/entries');
 req.send();
+
+

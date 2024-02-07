@@ -29,3 +29,98 @@ array1.splice(4,0,'JLM','JLMS')
 console.log(array1)
 console.log(array1.splice(1,3))
 console.log(array1)
+
+//Conditional Statements
+// if else
+const demo='Manoj' 
+const demo1='Kumar'
+if(demo==='Manoj' && demo1==='kumar')
+{
+    console.log("Hi Manoj Kumar.S")
+
+}
+else{
+    console.log("Who r you?")
+}
+
+//elseif
+const fruit='Mango'
+const fruit1='Orange'
+if (fruit==='Mango'){
+
+console.log("It is Mango")
+}
+else if(fruit1==='Orange')
+{
+console.log("It is Orange")
+}
+else{
+    console.log("No fruit is available")
+}
+
+//Ternary operator
+const animal='puppy'
+?console.log("Hi puppy")// if true
+:console.log("Where is the puppy?")// else
+
+//looping statement
+for(const a of arr ){
+    console.log(a)
+}
+
+//map()
+function toUpper(string) {
+    return string.toUpperCase();
+  }
+const b=arr.map(toUpper) //map changes every element in the collections and stores it in another array
+console.log(b)
+
+//filter()
+function fname(name){
+    return name.startsWith('M')
+}
+const c=arr.filter(fname) //filters the array and stores it in a new one
+console.log(c)
+
+//Standard for
+for(let i=0;i<arr.length;i++)
+{
+    console.log(arr[i])
+}
+
+//while an ddo while
+let i=0
+while(i<arr.length)
+{
+console.log(arr[i])
+i++
+
+}
+let a=0
+do{
+    console.log(arr[a])
+    a++
+ }
+ while(a<arr.length)
+ 
+
+ //Functions
+ function display(){
+    console.log("HIIIIII")
+ }
+ function demo2(name2='Manoj'){
+    console.log(`Welcome ${name2}`)
+ }
+
+ display();//invoking a function
+ demo2();
+ demo2('Aspire');
+
+ //function with return
+ function display1(name12="Kumar"){
+    
+    return name12
+ }
+ aaa=display1();
+ console.log(aaa);
+ 
