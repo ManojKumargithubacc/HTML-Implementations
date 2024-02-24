@@ -21,7 +21,7 @@ const obj={
 const {myname:uname,lname:name1}=obj
 console.log(uname)
 console.log(name1)
-//nated obj deconstruction
+//nested obj deconstruction
 let obj2 = {
 	name: "GFG",
 	add : {

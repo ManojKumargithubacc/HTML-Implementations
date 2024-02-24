@@ -1,6 +1,10 @@
 const dom=document.querySelector('body')
-const para=document.createElement('p')
+const para=document.createElement('button')
 dom.append(para)
-para.innerText='I am Manoj'
+para.textContent='submit'
 para.style.color='red'
-console.log(dom)
+para.addEventListener('click',e=>{
+    alert("Submited")
+    console.log("Submit event works")
+})
+

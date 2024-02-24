@@ -22,7 +22,7 @@ console.log(arr)
 console.log(arr.concat("Best Place"))
 console.log(arr.concat(arr1))
 console.log(arr);
-console.log("array",arr.copyWithin(2))//3rd indexed element is copied and replaces the 6th indexed element
+console.log("array",arr.copyWithin(2,3,5))//3rd indexed element is copied and replaces the 6th indexed element
 const myArr = [[1,2,6],[3,4,6],[5,6,8]];
 console.log(myArr.flat())//Converts 2D array to a single dimension array
 const array1=Array('I','am','living','in','Chennai')

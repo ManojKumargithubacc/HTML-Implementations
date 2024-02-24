@@ -1,4 +1,6 @@
 const arr= new Int16Array(8)
+
+arr.fill(8)
 console.log(arr)
 const arr1= new Int8Array(8)
 console.log(arr1)
