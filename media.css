@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    
+}
+@media screen and (max-width:600px){
+    nav ul{
+        flex-direction: column;
+        color: blue;
+    }
+} 
+    
